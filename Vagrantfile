@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-require_relative 'custom'
+require_relative 'Vagrantfile-ext'
 
 Vagrant.configure("2") do |config|
 

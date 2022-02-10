@@ -11,4 +11,6 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y manpages-dev
 sudo apt-get install -y gdb
 
-custom.sh
+if [ -f "provision-ext.sh" ]; then
+   provision-ext.sh
+fi
